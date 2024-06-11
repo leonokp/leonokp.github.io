@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Leon's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			html {
+            scroll-behavior: smooth;
+			}
+        .posts .image img {
+            width: 50px;  /* Set a fixed width */
+            height: 300px; /* Set a fixed height */
+            object-fit: contain; /* Ensures the image covers the area, maintaining aspect ratio */
+        }
+		.skills {
+            display: flex;
+            justify-content: space-around; /* Distribute space between items */
+            flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+        }
+        .skill {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */
+            text-align: center; /* Center text */
+            flex: 1; /* Distribute available space equally */
+            margin: 20px; /* Adjust as needed */
+            min-width: 150px; /* Minimum width to prevent too small containers */
+        }
+        .skill img {
+            width: 100px; /* Adjust as needed */
+            height: auto;
+            margin-bottom: 10px; /* Space between image and text */
+        }
+		</style>
+		
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo" style="font-size: 24px;"><strong>Leon Oliver Kafton Pentony</strong></a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/leonokpentony/" target="_blank" class="icon brands fa-linkedin fa-2x"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://github.com/leonokp" target="_blank" class="icon brands fa-github fa-2x"><span class="label">GitHub</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>My Portfolio<br/>
+										</header>
+										<p>Hello, I'm Leon. I'm currently a Data Analyst aspiring to learn more about the world of data science.
+											I’m excited to share my journey and experiences in the field of data science with you while demonstrating learned tools along the way!<br>
+											<br>
+											I am currently pursuing a part-time Master's degree in Data Science at the University of Leeds, 
+											where I am learning much about this dynamic and ever-evolving field. 
+											My academic journey has equipped me with a solid foundation in Python and R, which I've applied 
+											to various personal projects, ranging from data analysis to predictive modeling.<br>
+											<br>
+											Over the past year, I have worked as a Data Analyst, where I had the opportunity to further develop 
+											my SQL, Tableau, and data visualisation skills. This role allowed me to transform complex data into 
+											actionable insights, helping to drive informed decision-making within the organization. I enjoyed 
+											the challenge of working with large datasets and finding creative solutions to analytical problems.
+											</p>
+										<ul class="actions">
+											<li><a href="images/202406_cv.pdf" target="_blank" class="button big">See CV</a></li>
+											<li><a href="#skills" class="button big">See Skills</a></li>
+											<li><a href="#projects" class="button big">See Projects</a></li>
+											<li><a href="#certs" class="button big">See Certifications</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<img src="images/headshot.jpeg" style="width: 500px; height: auto; position: relative; right: -100px; top: 10px;"/>
+									</span>
+								</section>
+
+							<!-- Skills -->
+							<section id="skills">
+								<header class="major">
+									<h2>Skills</h2>
+								</header>
+								<div class="skills">
+									<div class="skill">
+										<span class="fab fa-python fa-5x" style="color:rgb(240, 81, 88); margin-bottom: 10px;"></span>
+										<div class="content">
+											<h3>Python</h3>
+										</div>
+									</div>
+									<div class="skill">
+										<span class="fa fa-database fa-5x" style="color:rgb(240, 81, 88); margin-bottom: 10px;"></span>
+										<div class="content">
+											<h3>SQL</h3>
+										</div>
+									</div>
+									<div class="skill">
+										<span class="fab fa-r-project fa-5x" style="color:rgb(240, 81, 88); margin-bottom: 10px;"></span>										<div class="content">
+											<h3>R</h3>
+										</div>
+									</div>
+									<div class="skill">
+										<span class="fa fa-superscript fa-5x" style="color:rgb(240, 81, 88); margin-bottom: 10px;"></span>										<div class="content">
+											<h3>Mathematics</h3>
+										</div>
+									</div>
+									<div class="skill">
+										<span class="fa fa-chart-line fa-5x" style="color:rgb(240, 81, 88); margin-bottom: 10px;"></span>										<div class="content">
+											<h3>Tableau</h3>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<!-- Projects -->
+								<section id="projects">
+									<header class="major">
+										<h2>Projects</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a class="image"><img src="images/meteoritical_soc.png" alt=""/></a>
+											<h3>Investigating Meteorite Landings</h3>
+											<h5 style="color: dimgray;">Skills: Python, Jupyter Notebook, EDA, Data Wrangling, Data Visualisation, Data Analysis</h5>
+											<p>In this project, I achieved 81% on a Python data analysis assessment as part of my Master's.
+												The task involved selecting an open dataset of interest and conducting data analysis using Python.
+												I chose a dataset of recorded meteorite landings and my focus was to extensively clean the dataset and
+												then to use EDA and data visualisation to gain a solid understanding of the data.
+											</p>
+											<ul class="actions">
+												<li><a href="https://www.kaggle.com/code/leonchxme/investigating-meteorite-landings" target="_blank" class="button">See Code</a></li>
+											</ul>
+										</article>
+										<article>
+											<a class="image"><img src="images/cyclistic.png" alt="" /></a>
+											<h3>Cyclistic Study</h3>
+											<h5 style="color: dimgray;">Skills: R, SQL, Tableau, Jupyter Notebook, EDA, Data Wrangling, Data Analysis</h5>
+											<p>This project was the final part of Google's Data Analytics Professional Certificate.
+												It brought together all learned hard skills such as R, SQL and Tableau, whilst introducing
+												the data analysis process. I chose a case study based on a fictional bike ride share programme
+												where the problem was how to use data to convert casual riders into annual members.
+											</p>
+											<ul class="actions">
+												<li><a href="https://www.kaggle.com/code/leonchxme/cyclistic-case-study" target="_blank" class="button">See Code</a></li>
+											</ul>
+										</article>
+										<article>
+											<a class="image"><img src="images/tussell.png" style="padding-left: 100px; padding-right: 100px;" /></a>
+											<h3>Strategic Suppliers</h3>
+											<h5 style="color: dimgray;">Skills: SQL, Tableau, Data Cleaning, Data Visualisation, Data Analysis</h5>
+											<p>In this project, I created a flagship report for Tussell, focusing on strategic suppliers to the UK government.
+												My role involved collecting and cleaning the data using SQL to ensure it was ready for analysis. Utilising Tableau, I 
+												then visualised the data, creating compelling and informative visual representations.
+												Additionally, I crafted the "story" of the report using Tableau, drawing insightful conclusions from the data and visualisations.
+											</p>
+											<ul class="actions">
+												<li><a href="https://www.tussell.com/strategic-suppliers-2023" target="_blank" class="button">See Report</a></li>
+											</ul>
+										</article>
+										<article>
+											<a class="image"><img src="images/tech200.png"/></a>
+											<h3>Tech200</h3>
+											<h5 style="color: dimgray;">Tools: SQL, Tableau, Data Cleaning, Data Analysis</h5>
+											<p>In this project, I created Tussell's Tech200 report, which focuses on the top 200 
+												fastest growing technology companies. My responsibilities included collecting and cleaning 
+												the data for each company to ensure accuracy and consistency. After preparing the data, I 
+												conducted an in-depth analysis to identify trends and key insights within the top 200 companies.</p>
+											<ul class="actions">
+												<li><a href="https://www.tussell.com/tech200" target="_blank" class="button">See Report</a></li>
+											</ul>
+										</article>
+									</div>
+								</section>
+
+							<!-- Certifications -->	
+							<section id="certs">
+								<header class="major">
+									<h2>Certifications</h2>
+								</header>
+								<div class="posts">
+									<article>
+										<a class="image"><img src="images/uni_leeds.png" style="padding-left: 100px; padding-right: 100px;" /></a>
+										<h3>MSc Data Science (Statistics)</h3>
+										<h5 style="color: dimgray;">Expected Graduation Late 2025</h5>
+										<p>Module marks include Programming for Data Science - 84%, Exploratory Data Analysis - 83%</p>
+										<ul class="actions">
+											<li><a href="https://www.coursera.org/degrees/msc-data-science-ul" target="_blank" class="button">See Course</a></li>
+										</ul>
+									</article>
+									<article>
+										<a class="image"><img src="images/uni_leeds.png" style="padding-left: 100px; padding-right: 100px;" /></a>
+										<h3>BSc Mathematics</h3>
+										<h5 style="color: dimgray;">Sep 2019 - Jun 2021, Achieved a 2:1</h5>
+										<p>Module marks include Project in Mathemetics (Dissertation) - 73%, Computational Mathematics - 71%, Logic - 72%</p>
+										<ul class="actions">
+											<li><a href="images/degree_transcript.pdf" target="_blank" class="button">See Certificate</a></li>
+										</ul>
+									</article>
+									<article>
+										<a class="image"><img src="images/ml_spec.png" alt="" /></a>
+										<h3>Machine Learning Specialisation</h3>
+										<h5 style="color: dimgray;">Achieved 100%, completed Nov 2022</h5>
+										<p>Comprehensive three-course program including building and training ML models using TensorFlow, scikit-learn and
+											NumPy, with taught concepts including linear and logistic regression, decision trees, artificial neural networks and
+											recommender systems.
+											Assessed via practice quizzes, and interactive labs and each course included a graded final programming assignment.</p>
+										<ul class="actions">
+											<li><a href="images/ml_cert.pdf" target="_blank" class="button">See Certificate</a></li>
+										</ul>
+									</article>
+									<article>
+										<a class="image"><img src="images/google_spec.jpg" alt="" /></a>
+										<h3>Data Analytics Professional Certificate</h3>
+										<h5 style="color: dimgray;">Achieved 98%, completed Jan 2023</h5>
+										<p>Extensive eight-course program outlining practices of a data analyst, teaching analytical skills such as data cleaning,
+											analysis and visualisation through the use of SQL, R, Tableau and spreadsheets.
+											Assessed throughout the program via practice quizzes, and hands-on projects with each course including a graded final
+											exam and a final capstone case study project.</p>
+										<ul class="actions">
+											<li><a href="images/da-cert.pdf" target="_blank" class="button">See Certificate</a></li>
+										</ul>
+									</article>
+								</div>
+							</section>						
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
